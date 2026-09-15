@@ -1,0 +1,1307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ms Ranain-portfolio</title>
+</head>
+<style>
+    #home{
+        background-color: rgb(0, 0, 0);
+        height: 100vh;
+    }
+    #project{
+        background-color: rgb(0, 0, 0);
+        height: 100vh;
+    
+    }
+    #contact{
+        background-color: rgb(0, 0, 0);
+        height: 100vh;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+       nav,ul,li,.an{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    text-decoration: none;}
+    .h1{
+        color: gold;
+        font-family:monospace ;
+    }
+    .a{
+        color: gray;
+    }
+    a:hover{
+        color: white;
+    }
+    .main1{
+        width: 700px;
+        height: 550px;
+        border-radius: 20px;
+        background-color: rgb(10, 10, 10);
+        position: absolute;top: 200px; left: 30px;
+    }
+    .div{
+        width: 220px;
+        height: 25px;
+        border-radius: 20px;
+        border: 3px solid black;
+        background: linear-gradient( 100deg, black,rgb(158, 103, 2));
+    margin-top: 20px;
+    color: gold;
+    font-weight: 900;
+    margin-left: 20px;
+    
+    }
+
+    .typing{
+          font-size: 50px;
+        letter-spacing: 3px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: 2s steps(30) infinite a;
+        color: white;
+    }
+     @keyframes a{
+        from{width: 0px;}
+        to{width: 880px;}
+    }
+.paragraph{
+    color: gray;
+}
+.button{
+    background-color: orange;
+    color: black;
+    font-weight: 900;
+    border-radius: 20px;
+    width: 150px;
+    height:40px;
+}
+.Hire{
+    color: gray;
+background-color: transparent;
+    border: 1px solid grey;
+    width: 100px;
+    height:20px;
+    border-radius: 20px;
+}
+.skills{
+    width: 300px;
+    height: 70px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    border-radius: 20px;
+
+}
+.skills2{
+    width: 200px;
+    height: 15px;
+    background-color:rgb(62, 62, 62);
+    border-radius: 40px;
+    
+}
+.skills3{
+    height: 100%;
+    width: 0;
+    background: linear-gradient(90deg,gold , orangered);
+    animation: 2s forwards slide;
+    border-radius: inherit;
+}
+@keyframes slide {
+    from{width: 0%;}
+    to{width: 90%;}
+}
+h2{
+    font-family: monospace;
+    color: gold;
+}
+.css1{
+     width: 300px;
+    height: 70px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    border-radius: 20px;
+}
+.css2{
+      width: 200px;
+    height: 15px;
+    background-color:rgb(62, 62, 62);
+    border-radius: 40px;
+}
+.css3{
+     height: 100%;
+    width: 0;
+    background: linear-gradient(90deg,gold , orangered);
+    animation: 2s forwards photo;
+    border-radius: inherit;
+}
+@keyframes photo{
+     from{width: 0%;}
+    to{width: 80%;}
+}
+.js1{
+    width: 300px;
+    height: 70px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    border-radius: 20px;
+    position: absolute; left: 330px;top: 320px  ;
+}
+.js2{
+       width: 200px;
+    height: 15px;
+    background-color:rgb(62, 62, 62);
+    border-radius: 40px;
+}
+.js3{
+     height: 100%;
+    width: 0;
+    background: linear-gradient(90deg,gold , orangered);
+    animation: 2s forwards illustrator;
+    border-radius: inherit;
+   
+}
+@keyframes illustrator{
+     from{width: 0%;}
+    to{width: 80%;}
+}
+.desi{
+      width: 300px;
+    height: 70px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    border-radius: 20px;
+    position: absolute; left: 330px;top: 400px; 
+}
+.desi2{
+     width: 200px;
+    height: 15px;
+    background-color:rgb(62, 62, 62);
+    border-radius: 40px;
+}
+.desi3{
+     height: 100%;
+    width: 0;
+    background: linear-gradient(90deg,gold , orangered);
+    animation: 2s forwards ms;
+    border-radius: inherit;
+}
+@keyframes ms{
+    from{width: 0%;}
+    to{width: 80%;}
+}
+.main2{
+    height: 450px;
+    width: 500px;
+background-color: rgba(35, 35, 35, 0.528);
+position: absolute;top: 200px;left: 1000px;
+border-radius: 20px;
+}
+.pic{
+    height: 300px;
+    width: 400px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 20px;
+    position: absolute; left: 45px; top: 50px;
+    box-shadow: 10px  gray;
+    background-image: url(https://wallpapercave.com/wp/wp6400060.jpg);
+    background-size: 100% 100%;
+}
+.exp{
+    color: grey;
+    position: absolute; top: 300px;
+}
+.paragraph1{
+    color: grey;
+    position: absolute;top: 330px;
+}
+.expose{
+    color: grey;
+    position: absolute;top:300px; left: 300px;
+}
+.paragraph2{
+       color: grey;
+    position: absolute;top: 330px; left: 300px;
+}
+.project{
+  width: 1000px;
+  height: 550px;
+  background-color: rgb(23, 23, 23);
+  position: absolute; top: 1100px; left: 300px;
+  border-radius: 20px;  
+}
+body{
+    background:#050505;
+    color:white;
+    padding:40px;
+}
+.projects{
+    max-width:1200px;
+    margin:auto;
+    background:#090909;
+    border:1px solid #151515;
+    border-radius:20px;
+    padding:25px;
+}
+.top-bar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+    background-color: black;
+}
+.title h2{
+    font-size:30px;
+    font-weight:800;
+    position: absolute;top: 900px;
+}
+.title .line{
+    width:70px;
+    height:4px;
+    background:#d6b432;
+    margin-top:10px;
+    border-radius:10px;
+    position: absolute;top: 960px;
+}
+.title p{
+    color:#8b8b8b;
+    margin-top:12px;
+    position: absolute;top: 970px;
+}
+.shuffle{
+  display:flex;
+    gap:10px;
+     position: absolute;top: 970px;right: 990px;
+     background:#0e0e0e;
+    color:#aaa;
+    border:1px solid #222;
+    padding:12px 20px;
+    border-radius:12px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.expand{
+    background:#0e0e0e;
+    color:#aaa;
+    border:1px solid #222;
+    padding:12px 20px;
+    border-radius:12px;
+    cursor:pointer;
+    transition:.3s;
+    position: absolute;top: 970px;
+}
+.buttons button:hover{
+    background:#151515;
+    color:white;
+}
+.card1{
+    background:linear-gradient(180deg,#0b0b0b,#080808);
+    border:1px solid #181818;
+    border-radius:18px;
+    padding:25px;
+    min-height:160px;
+    transition:.4s;
+    position:relative;
+    overflow:hidden;
+    position: absolute;top: 1100px; right: 1000px;
+    width: 400px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card1:hover{
+    transform:translateY(-6px);
+    border-color: black;
+    box-shadow:0 0 25px rgba(214,180,50,.15);
+}
+
+.card2{
+    background:linear-gradient(180deg,#0b0b0b,#080808);
+    border:1px solid #181818;
+    border-radius:18px;
+    padding:25px;
+    min-height:160px;
+     position: absolute;top: 200px; right: 480px;
+    transition:.4s;
+    position:relative;
+    overflow:hidden;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 400px;
+}
+.card2:hover{
+    transform:translateY(-6px);
+    border-color: black;
+    box-shadow:0 0 25px rgba(214,180,50,.15);
+}
+.card3{
+    background:linear-gradient(180deg,#0b0b0b,#080808);
+    border:1px solid #181818;
+    border-radius:18px;
+    padding:25px;
+    min-height:160px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;top: -4px;
+    transition:.4s;
+    position:relative;
+    overflow:hidden;
+    width: 400px;
+}
+.card3:hover{
+    transform:translateY(-6px);
+    border-color: black;
+    box-shadow:0 0 25px rgba(214,180,50,.15);
+}
+.card4{
+    background:linear-gradient(180deg,#0b0b0b,#080808);
+    border:1px solid #181818;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius:18px;
+    padding:25px;
+    min-height:160px;
+    transition:.4s;
+    position:relative;
+    overflow:hidden;
+    width: 400px;
+    position: absolute;right: 1000px;
+}
+.card4:hover{
+    transform:translateY(-6px);
+    border-color: black;
+    box-shadow:0 0 25px rgba(214,180,50,.15);
+}
+.card5{
+    background:linear-gradient(180deg,#0b0b0b,#080808);
+    border:1px solid #181818;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius:18px;
+    padding:25px;
+    min-height:160px;
+    transition:.4s;
+    position:relative;
+    overflow:hidden;
+    width: 400px;
+    position: absolute;right: 530px;
+}
+.card5:hover{
+    transform:translateY(-6px);
+    border-color: black;
+    box-shadow:0 0 25px rgba(214,180,50,.15);
+}
+.card h3{
+    font-size:15px;
+    font-weight:800;
+}
+
+.card p{
+    color:#9a9a9a;
+    line-height:1.5;
+}
+
+.tags{
+    position:absolute;
+    bottom:20px;
+    left:20px;
+    display:flex;
+    gap:8px;
+    flex-wrap:wrap;
+}
+
+.tag{
+    background:#111;
+    border:1px solid #1e1e1e;
+    color:#a8a8a8;
+    padding:8px 12px;
+    border-radius:20px;
+    font-size:13px;
+}
+.main0{
+            height: 500px;
+            width: 1300px;
+            background-color: rgb(18, 18, 18);
+            box-shadow:0px 0px 0px 10px black;
+            position: absolute;top: 1800px;left: 100px; 
+            border-radius: 20px;
+
+
+            }
+             h3{
+                color: aliceblue;
+             }
+             p{
+                color: aliceblue;
+             }
+             input{
+                width: 720px;
+                height: 40px;
+                background-color: rgba(11, 11, 11, 0.548);
+                color: white;
+                border: black;
+                border-radius: 10px;
+                cursor: pointer;
+             }
+             .a1{
+                height: 50px;
+                width: 150px;
+                background-color: gold;
+               transition: 0.7s;
+                border-radius: 20px;
+                 position: absolute; top: 380px;
+                 border: black solid;
+             }
+            .a2{
+                height: 50px;
+                width: 150px;
+                transition: 0.7s;
+                border-radius: 20px;
+                position: absolute; top: 380px;right: 970px;
+                border: black solid;
+             }
+             .a3{
+                width: 400px;
+                height: 250px;
+                background-color: rgb(0, 0, 0);
+                box-shadow : 0 0 0 5px black;
+                border-radius: 20px;
+                color: white;
+                position: absolute;top: 100px;right: 150px;
+             }
+             p{
+                color: grey;
+             }
+             .line1{
+               background: linear-gradient(Gold,black);
+               width: 60px;
+               height: 2px;
+               padding-left: 10px;
+             }
+             .line2{
+                background: linear-gradient(Gold,black);
+               width: 60px;
+               height: 2px;
+             }
+            
+             button:hover{
+               background-color: black;
+               color: antiquewhite;
+             }
+             textarea{
+               background-color: black;
+               color: white;
+               width: 720px;
+               height: 100px;
+               border: black;
+               border-radius: 10px;
+               cursor: pointer;
+             }
+             .text9{
+              padding-left: 10px;
+             }
+             .h9{
+              padding-left: 10px;
+              font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+              font-size: 25px;
+             }
+             .blue1{
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             }
+            span{
+              transition: 0.5s;
+
+            }
+         body{
+        background-color: black;
+
+    }
+    #box{
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        border: 3px solid purple;
+        filter: blur(1px);
+        box-shadow: 0 0 5px purple;
+        position: fixed;
+        transition: 0.1s;
+        pointer-events: none;
+    }
+    #dot{
+        height: 20px;
+        width: 20px;
+        background-color: purple;
+        border-radius: 100%;
+        position: fixed;
+        pointer-events: none;
+    }
+    *{
+        cursor: none;
+    }
+    .main{
+        height: 300vh;
+    }
+
+             
+            
+</style>
+<body>
+
+
+
+  
+ 
+
+  
+<nav>
+    <ul><b><h1 class="h1">RANAIN</h1></b></ul>
+    <ul>
+        <li><a class="a" href="#home" class="an">home</a></li>
+        <li><a  class="a" href="#project">project</a></li>
+        <li><a  class="a"href="#contact">contact</a></li>
+        <li><a  class="a" href="#whatsapp">whatsapp</a></li>
+    </ul>
+</nav>
+
+
+<section id="home">
+<div class="main1">
+    <div class="div">  Full stack • Designer • Motion</div>
+   
+    <b>  <u> <h1 class="typing">hello I'm  ranain</h1></u></b>    
+    
+    <p class="paragraph">I design premium, bold web experiences using HTML, CSS, JS, PHP & C#. I add heavy motion so the site looks rich, dramatic and unforgettable.</p>
+    <br>
+    <a href="Blue and Gray Simple Professional CV Resume.jpg">
+    <button class="button">Download CV</button>
+    </a>
+    <button class="Hire">Hire Me</button>
+    <br><br>
+    <div class="skills">
+        <h2 class="good">HTML</h2>
+        <div class="skills2">
+            <div class="skills3"></div>
+        </div>
+    </div>
+    <div class="css1">
+        <h2 class="bad">CSS</h2>
+        <div class="css2">
+            <div class="css3"></div>
+        </div>
+    </div>
+    <div class="js1">
+        <h2 class="java">JavaScript</h2>
+        <div class="js2">
+            <div class="js3"></div>
+        </div>
+    </div>
+    <div class="desi">
+        <h2 class="ok">design</h2>
+        <div class="desi2">
+            <div class="desi3"></div>
+        </div>
+    </div>
+</div>
+<div class="main2">
+    <div class="pic" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+       
+       <b><h2 class="exp">Experience</h2></b>
+       <p class="paragraph1">3+ years</p>
+       <b><h2 class="expose">Location</h2></b>
+       <p class="paragraph2">Pakistan</p>
+    </div>
+</div>
+</section>
+
+<section id="project"> 
+  <div class="top-bar">
+        <div class="title">
+            <h2>VIP Projects</h2>
+            <div class="line"></div>
+            <p>Hover the cards • click to view details</p>
+        </div>
+
+        <div class="buttons">
+            <button class="shuffle" onclick="run()">Shuffle </button>
+            <button class="expand">Expand</button>
+        </div>
+    
+
+    <div class="cards"  id="container">
+
+        <div class="card1">
+            <h3>Oudh E-Shop (Premium)</h3>
+            <p>Luxury perfume e-commerce UI— product previews & cart micro-interactions.</p>
+
+            <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JS</span>
+                <span class="tag">PHP</span>
+            </div>
+        </div>
+
+        <div class="card2">
+            <h3>3D Card Gallery</h3>
+            <p>Interactive 3D hover gallery with tilt & reflection effects.</p>
+
+            <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JS</span>
+            </div>
+        </div>
+
+        <div class="card3">
+            <h3>SkillDash (Admin)</h3>
+            <p>Dashboard demo with charts & dynamic filters (mock data).</p>
+
+            <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">JS</span>
+                <span class="tag">PHP</span>
+            </div>
+        </div>
+
+        <div class="card4">
+            <h3>C# Utility Suite</h3>
+            <p>Collection of C# console tools: file organizer, data parser.</p>
+
+            <div class="tags">
+                <span class="tag">C#</span>
+                <span class="tag">.NET</span>
+            </div>
+        </div>
+
+        <div class="card5">
+            <h3>Landing — Motion HQ</h3>
+            <p>One-page marketing site with dramatic scroll reveal & motion.</p>
+
+            <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JS</span>
+            </div>
+        </div>
+        
+
+    </div>
+</div>
+</section>
+<section id="contact"> 
+  <div class="main0">
+        <div>
+            <h3 class="h9"><b>Contact ME</h3></b>
+            <div class="line1"></div>
+            <div class="text9">
+             <p>Need a website or help with design?Message me or use Whatsapp.</p>
+             <input type="text" placeholder="Your name" id="name">
+             <br><br>
+             <input type="text" placeholder="Email" id="email">
+             <br><br>
+            <textarea name="" id="msg" placeholder="Message"></textarea>
+            
+             <br><br>
+             <button class="a1"  onclick="run()">Send Message</button>
+             <br><br>
+             <button class="a2"  onclick="run()"  >Message on Whatsapp</button>
+</div>
+        
+        
+        </div>
+        <div class="a3">
+            <h1 class="blue1">Direct</h1>
+            <div class="line2"></div>
+            <p>Email:ub7941832@gmail.com</p>
+            
+            <p>Whatsapp:+92 336 3216135</p>
+            
+            <p>Note:Repalce the email above if you want real replies via the form (Or configure server side)</p>
+        </div>
+        </div>
+         <div id="box"></div>
+<div id="dot"></div>
+</section>
+
+
+
+
+
+ <script>
+            var VanillaTilt = (function () {
+'use strict';
+
+/**
+ * Created by Sergiu Șandor (micku7zu) on 1/27/2017.
+ * Original idea: https://github.com/gijsroge/tilt.js
+ * MIT License.
+ * Version 1.8.1
+ */
+
+class VanillaTilt {
+  constructor(element, settings = {}) {
+    if (!(element instanceof Node)) {
+      throw ("Can't initialize VanillaTilt because " + element + " is not a Node.");
+    }
+
+    this.width = null;
+    this.height = null;
+    this.clientWidth = null;
+    this.clientHeight = null;
+    this.left = null;
+    this.top = null;
+
+    // for Gyroscope sampling
+    this.gammazero = null;
+    this.betazero = null;
+    this.lastgammazero = null;
+    this.lastbetazero = null;
+
+    this.transitionTimeout = null;
+    this.updateCall = null;
+    this.event = null;
+
+    this.updateBind = this.update.bind(this);
+    this.resetBind = this.reset.bind(this);
+
+    this.element = element;
+    this.settings = this.extendSettings(settings);
+
+    this.reverse = this.settings.reverse ? -1 : 1;
+    this.resetToStart = VanillaTilt.isSettingTrue(this.settings["reset-to-start"]);
+    this.glare = VanillaTilt.isSettingTrue(this.settings.glare);
+    this.glarePrerender = VanillaTilt.isSettingTrue(this.settings["glare-prerender"]);
+    this.fullPageListening = VanillaTilt.isSettingTrue(this.settings["full-page-listening"]);
+    this.gyroscope = VanillaTilt.isSettingTrue(this.settings.gyroscope);
+    this.gyroscopeSamples = this.settings.gyroscopeSamples;
+
+    this.elementListener = this.getElementListener();
+
+    if (this.glare) {
+      this.prepareGlare();
+    }
+
+    if (this.fullPageListening) {
+      this.updateClientSize();
+    }
+
+    this.addEventListeners();
+    this.reset();
+
+    if (this.resetToStart === false) {
+      this.settings.startX = 0;
+      this.settings.startY = 0;
+    }
+  }
+
+  static isSettingTrue(setting) {
+    return setting === "" || setting === true || setting === 1;
+  }
+
+  /**
+   * Method returns element what will be listen mouse events
+   * @return {Node}
+   */
+  getElementListener() {
+    if (this.fullPageListening) {
+      return window.document;
+    }
+
+    if (typeof this.settings["mouse-event-element"] === "string") {
+      const mouseEventElement = document.querySelector(this.settings["mouse-event-element"]);
+
+      if (mouseEventElement) {
+        return mouseEventElement;
+      }
+    }
+
+    if (this.settings["mouse-event-element"] instanceof Node) {
+      return this.settings["mouse-event-element"];
+    }
+
+    return this.element;
+  }
+
+  /**
+   * Method set listen methods for this.elementListener
+   * @return {Node}
+   */
+  addEventListeners() {
+    this.onMouseEnterBind = this.onMouseEnter.bind(this);
+    this.onMouseMoveBind = this.onMouseMove.bind(this);
+    this.onMouseLeaveBind = this.onMouseLeave.bind(this);
+    this.onWindowResizeBind = this.onWindowResize.bind(this);
+    this.onDeviceOrientationBind = this.onDeviceOrientation.bind(this);
+
+    this.elementListener.addEventListener("mouseenter", this.onMouseEnterBind);
+    this.elementListener.addEventListener("mouseleave", this.onMouseLeaveBind);
+    this.elementListener.addEventListener("mousemove", this.onMouseMoveBind);
+
+    if (this.glare || this.fullPageListening) {
+      window.addEventListener("resize", this.onWindowResizeBind);
+    }
+
+    if (this.gyroscope) {
+      window.addEventListener("deviceorientation", this.onDeviceOrientationBind);
+    }
+  }
+
+  /**
+   * Method remove event listeners from current this.elementListener
+   */
+  removeEventListeners() {
+    this.elementListener.removeEventListener("mouseenter", this.onMouseEnterBind);
+    this.elementListener.removeEventListener("mouseleave", this.onMouseLeaveBind);
+    this.elementListener.removeEventListener("mousemove", this.onMouseMoveBind);
+
+    if (this.gyroscope) {
+      window.removeEventListener("deviceorientation", this.onDeviceOrientationBind);
+    }
+
+    if (this.glare || this.fullPageListening) {
+      window.removeEventListener("resize", this.onWindowResizeBind);
+    }
+  }
+
+  destroy() {
+    clearTimeout(this.transitionTimeout);
+    if (this.updateCall !== null) {
+      cancelAnimationFrame(this.updateCall);
+    }
+
+    this.element.style.willChange = "";
+    this.element.style.transition = "";
+    this.element.style.transform = "";
+    this.resetGlare();
+
+    this.removeEventListeners();
+    this.element.vanillaTilt = null;
+    delete this.element.vanillaTilt;
+
+    this.element = null;
+  }
+
+  onDeviceOrientation(event) {
+    if (event.gamma === null || event.beta === null) {
+      return;
+    }
+
+    this.updateElementPosition();
+
+    if (this.gyroscopeSamples > 0) {
+      this.lastgammazero = this.gammazero;
+      this.lastbetazero = this.betazero;
+
+      if (this.gammazero === null) {
+        this.gammazero = event.gamma;
+        this.betazero = event.beta;
+      } else {
+        this.gammazero = (event.gamma + this.lastgammazero) / 2;
+        this.betazero = (event.beta + this.lastbetazero) / 2;
+      }
+
+      this.gyroscopeSamples -= 1;
+    }
+
+    const totalAngleX = this.settings.gyroscopeMaxAngleX - this.settings.gyroscopeMinAngleX;
+    const totalAngleY = this.settings.gyroscopeMaxAngleY - this.settings.gyroscopeMinAngleY;
+
+    const degreesPerPixelX = totalAngleX / this.width;
+    const degreesPerPixelY = totalAngleY / this.height;
+
+    const angleX = event.gamma - (this.settings.gyroscopeMinAngleX + this.gammazero);
+    const angleY = event.beta - (this.settings.gyroscopeMinAngleY + this.betazero);
+
+    const posX = angleX / degreesPerPixelX;
+    const posY = angleY / degreesPerPixelY;
+
+    if (this.updateCall !== null) {
+      cancelAnimationFrame(this.updateCall);
+    }
+
+    this.event = {
+      clientX: posX + this.left,
+      clientY: posY + this.top,
+    };
+
+    this.updateCall = requestAnimationFrame(this.updateBind);
+  }
+
+  onMouseEnter() {
+    this.updateElementPosition();
+    this.element.style.willChange = "transform";
+    this.setTransition();
+  }
+
+  onMouseMove(event) {
+    if (this.updateCall !== null) {
+      cancelAnimationFrame(this.updateCall);
+    }
+
+    this.event = event;
+    this.updateCall = requestAnimationFrame(this.updateBind);
+  }
+
+  onMouseLeave() {
+    this.setTransition();
+
+    if (this.settings.reset) {
+      requestAnimationFrame(this.resetBind);
+    }
+  }
+
+  reset() {
+    this.onMouseEnter();
+
+    if (this.fullPageListening) {
+      this.event = {
+        clientX: (this.settings.startX + this.settings.max) / (2 * this.settings.max) * this.clientWidth,
+        clientY: (this.settings.startY + this.settings.max) / (2 * this.settings.max) * this.clientHeight
+      };
+    } else {
+      this.event = {
+        clientX: this.left + ((this.settings.startX + this.settings.max) / (2 * this.settings.max) * this.width),
+        clientY: this.top + ((this.settings.startY + this.settings.max) / (2 * this.settings.max) * this.height)
+      };
+    }
+
+    let backupScale = this.settings.scale;
+    this.settings.scale = 1;
+    this.update();
+    this.settings.scale = backupScale;
+    this.resetGlare();
+  }
+
+  resetGlare() {
+    if (this.glare) {
+      this.glareElement.style.transform = "rotate(180deg) translate(-50%, -50%)";
+      this.glareElement.style.opacity = "0";
+    }
+  }
+
+  getValues() {
+    let x, y;
+
+    if (this.fullPageListening) {
+      x = this.event.clientX / this.clientWidth;
+      y = this.event.clientY / this.clientHeight;
+    } else {
+      x = (this.event.clientX - this.left) / this.width;
+      y = (this.event.clientY - this.top) / this.height;
+    }
+
+    x = Math.min(Math.max(x, 0), 1);
+    y = Math.min(Math.max(y, 0), 1);
+
+    let tiltX = (this.reverse * (this.settings.max - x * this.settings.max * 2)).toFixed(2);
+    let tiltY = (this.reverse * (y * this.settings.max * 2 - this.settings.max)).toFixed(2);
+    let angle = Math.atan2(this.event.clientX - (this.left + this.width / 2), -(this.event.clientY - (this.top + this.height / 2))) * (180 / Math.PI);
+
+    return {
+      tiltX: tiltX,
+      tiltY: tiltY,
+      percentageX: x * 100,
+      percentageY: y * 100,
+      angle: angle
+    };
+  }
+
+  updateElementPosition() {
+    let rect = this.element.getBoundingClientRect();
+
+    this.width = this.element.offsetWidth;
+    this.height = this.element.offsetHeight;
+    this.left = rect.left;
+    this.top = rect.top;
+  }
+
+  update() {
+    let values = this.getValues();
+
+    this.element.style.transform = "perspective(" + this.settings.perspective + "px) " +
+      "rotateX(" + (this.settings.axis === "x" ? 0 : values.tiltY) + "deg) " +
+      "rotateY(" + (this.settings.axis === "y" ? 0 : values.tiltX) + "deg) " +
+      "scale3d(" + this.settings.scale + ", " + this.settings.scale + ", " + this.settings.scale + ")";
+
+    if (this.glare) {
+      this.glareElement.style.transform = `rotate(${values.angle}deg) translate(-50%, -50%)`;
+      this.glareElement.style.opacity = `${values.percentageY * this.settings["max-glare"] / 100}`;
+    }
+
+    this.element.dispatchEvent(new CustomEvent("tiltChange", {
+      "detail": values
+    }));
+
+    this.updateCall = null;
+  }
+
+  /**
+   * Appends the glare element (if glarePrerender equals false)
+   * and sets the default style
+   */
+  prepareGlare() {
+    // If option pre-render is enabled we assume all html/css is present for an optimal glare effect.
+    if (!this.glarePrerender) {
+      // Create glare element
+      const jsTiltGlare = document.createElement("div");
+      jsTiltGlare.classList.add("js-tilt-glare");
+
+      const jsTiltGlareInner = document.createElement("div");
+      jsTiltGlareInner.classList.add("js-tilt-glare-inner");
+
+      jsTiltGlare.appendChild(jsTiltGlareInner);
+      this.element.appendChild(jsTiltGlare);
+    }
+
+    this.glareElementWrapper = this.element.querySelector(".js-tilt-glare");
+    this.glareElement = this.element.querySelector(".js-tilt-glare-inner");
+
+    if (this.glarePrerender) {
+      return;
+    }
+
+    Object.assign(this.glareElementWrapper.style, {
+      "position": "absolute",
+      "top": "0",
+      "left": "0",
+      "width": "100%",
+      "height": "100%",
+      "overflow": "hidden",
+      "pointer-events": "none",
+      "border-radius": "inherit"
+    });
+
+    Object.assign(this.glareElement.style, {
+      "position": "absolute",
+      "top": "50%",
+      "left": "50%",
+      "pointer-events": "none",
+      "background-image": `linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%)`,
+      "transform": "rotate(180deg) translate(-50%, -50%)",
+      "transform-origin": "0% 0%",
+      "opacity": "0"
+    });
+
+    this.updateGlareSize();
+  }
+
+  updateGlareSize() {
+    if (this.glare) {
+      const glareSize = (this.element.offsetWidth > this.element.offsetHeight ? this.element.offsetWidth : this.element.offsetHeight) * 2;
+
+      Object.assign(this.glareElement.style, {
+        "width": `${glareSize}px`,
+        "height": `${glareSize}px`,
+      });
+    }
+  }
+
+  updateClientSize() {
+    this.clientWidth = window.innerWidth
+      || document.documentElement.clientWidth
+      || document.body.clientWidth;
+
+    this.clientHeight = window.innerHeight
+      || document.documentElement.clientHeight
+      || document.body.clientHeight;
+  }
+
+  onWindowResize() {
+    this.updateGlareSize();
+    this.updateClientSize();
+  }
+
+  setTransition() {
+    clearTimeout(this.transitionTimeout);
+    this.element.style.transition = this.settings.speed + "ms " + this.settings.easing;
+    if (this.glare) this.glareElement.style.transition = `opacity ${this.settings.speed}ms ${this.settings.easing}`;
+
+    this.transitionTimeout = setTimeout(() => {
+      this.element.style.transition = "";
+      if (this.glare) {
+        this.glareElement.style.transition = "";
+      }
+    }, this.settings.speed);
+
+  }
+
+  /**
+   * Method return patched settings of instance
+   * @param {boolean} settings.reverse - reverse the tilt direction
+   * @param {number} settings.max - max tilt rotation (degrees)
+   * @param {startX} settings.startX - the starting tilt on the X axis, in degrees. Default: 0
+   * @param {startY} settings.startY - the starting tilt on the Y axis, in degrees. Default: 0
+   * @param {number} settings.perspective - Transform perspective, the lower the more extreme the tilt gets
+   * @param {string} settings.easing - Easing on enter/exit
+   * @param {number} settings.scale - 2 = 200%, 1.5 = 150%, etc..
+   * @param {number} settings.speed - Speed of the enter/exit transition
+   * @param {boolean} settings.transition - Set a transition on enter/exit
+   * @param {string|null} settings.axis - What axis should be enabled. Can be "x" or "y"
+   * @param {boolean} settings.glare - if it should have a "glare" effect
+   * @param {number} settings.max-glare - the maximum "glare" opacity (1 = 100%, 0.5 = 50%)
+   * @param {boolean} settings.glare-prerender - false = VanillaTilt creates the glare elements for you, otherwise
+   * @param {boolean} settings.full-page-listening - If true, parallax effect will listen to mouse move events on the whole document, not only the selected element
+   * @param {string|object} settings.mouse-event-element - String selector or link to HTML-element what will be listen mouse events
+   * @param {boolean} settings.reset - false = If the tilt effect has to be reset on exit
+   * @param {boolean} settings.reset-to-start - true = On reset event (mouse leave) will return to initial start angle (if startX or startY is set)
+   * @param {gyroscope} settings.gyroscope - Enable tilting by deviceorientation events
+   * @param {gyroscopeSensitivity} settings.gyroscopeSensitivity - Between 0 and 1 - The angle at which max tilt position is reached. 1 = 90deg, 0.5 = 45deg, etc..
+   * @param {gyroscopeSamples} settings.gyroscopeSamples - How many gyroscope moves to decide the starting position.
+   */
+  extendSettings(settings) {
+    let defaultSettings = {
+      reverse: false,
+      max: 15,
+      startX: 0,
+      startY: 0,
+      perspective: 1000,
+      easing: "cubic-bezier(.03,.98,.52,.99)",
+      scale: 1,
+      speed: 300,
+      transition: true,
+      axis: null,
+      glare: false,
+      "max-glare": 1,
+      "glare-prerender": false,
+      "full-page-listening": false,
+      "mouse-event-element": null,
+      reset: true,
+      "reset-to-start": true,
+      gyroscope: true,
+      gyroscopeMinAngleX: -45,
+      gyroscopeMaxAngleX: 45,
+      gyroscopeMinAngleY: -45,
+      gyroscopeMaxAngleY: 45,
+      gyroscopeSamples: 10
+    };
+
+    let newSettings = {};
+    for (var property in defaultSettings) {
+      if (property in settings) {
+        newSettings[property] = settings[property];
+      } else if (this.element.hasAttribute("data-tilt-" + property)) {
+        let attribute = this.element.getAttribute("data-tilt-" + property);
+        try {
+          newSettings[property] = JSON.parse(attribute);
+        } catch (e) {
+          newSettings[property] = attribute;
+        }
+
+      } else {
+        newSettings[property] = defaultSettings[property];
+      }
+    }
+
+    return newSettings;
+  }
+
+  static init(elements, settings) {
+    if (elements instanceof Node) {
+      elements = [elements];
+    }
+
+    if (elements instanceof NodeList) {
+      elements = [].slice.call(elements);
+    }
+
+    if (!(elements instanceof Array)) {
+      return;
+    }
+
+    elements.forEach((element) => {
+      if (!("vanillaTilt" in element)) {
+        element.vanillaTilt = new VanillaTilt(element, settings);
+      }
+    });
+  }
+}
+
+if (typeof document !== "undefined") {
+  /* expose the class to window */
+  window.VanillaTilt = VanillaTilt;
+
+  /**
+   * Auto load
+   */
+  VanillaTilt.init(document.querySelectorAll("[data-tilt]"));
+}
+
+return VanillaTilt;
+
+}());
+
+
+
+
+
+  var box = document.getElementById("box")
+var dot = document.getElementById("dot")
+
+
+document.addEventListener("mousemove" , (e) =>{
+
+    box.style.left = (e.clientX - 25) + "px"
+    box.style.top = (e.clientY - 25) + "px"
+
+
+    dot.style.left = (e.clientX - 10) + "px"
+    dot.style.top = (e.clientY -10) + "px"
+
+
+})
+
+
+
+
+
+   alert("welcome to Ms.Ranain Portfolio")
+     var name = "ali" ;
+      var age = 18
+       var gender = "male" ;
+       console.log(name + " " + age + " " + gender )
+       console.log("Umm e Ranain")
+
+       
+        function run(){
+
+            var container = document.getElementById("container")
+
+            var divs = Array.from(container.children)
+
+            divs.sort(()=> Math.random() -0.5)
+
+            divs.forEach(div => container.appendChild(div))   
+        }
+
+
+
+        function run(){
+
+            var name = document.getElementById("name").value
+            var email = document.getElementById("email").value
+            var msg = document.getElementById("msg").value
+      
+
+
+        if(name=="" || email=="" || msg==""){
+            alert("please fill out these fields")
+            return
+        }
+
+        var text = "Name: " + name + "%0AEmail: " + email + "%0AMsg: " + msg
+
+        var number = "923101283946"
+
+        window.open("https://wa.me/" + number +  "?text=" + text, "_blank"  )
+
+
+  }
+        </script>
+
+    
+</body>
+</html>
+
+
+   
